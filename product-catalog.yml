@@ -5,7 +5,7 @@
     "default"
   ],
   "propertySources": [
-    "name": "https://github.com/bruno-lopes/microsservicos-spring-cloud-config/product-catalog.yml",
+    "name": "https://github.com/bruno-lopes/microsservicos-spring-cloud-config/blob/master/product-catalog.yml",
     "source": {
       "eureka.client.fetchRegistry": false,
       "eureka.client.registerWithEureka": true,
