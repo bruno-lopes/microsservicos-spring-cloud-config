@@ -2,7 +2,8 @@
   "label": "config-product-catalog",
   "name": "product-catalog",
   "profiles": [
-    "default"
+    "default",
+    "dev"
   ],
   "propertySources": [
     "name": "https://github.com/bruno-lopes/microsservicos-spring-cloud-config/blob/master/product-catalog.yml",
