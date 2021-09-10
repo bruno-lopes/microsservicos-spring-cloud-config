@@ -1,5 +1,5 @@
 {
-  "label": null,
+  "label": "config-product-catalog",
   "name": "product-catalog",
   "profiles": [
     "default"
