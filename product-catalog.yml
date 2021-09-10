@@ -12,9 +12,9 @@
       "eureka.client.server.wait-time-in-ms-when-sync-empty": 3000,
       "eureka.client.service.defaultZone": "http://${eureka.instance.hostname}:${eureka.instance.port}/eureka",
       "eureka.instance.hostname": "localhost",
-      "eureka.instance.port": "5000"
-    },
-    "server.port": 8082
+      "eureka.instance.port": "5000",
+      "server.port": 8082
+    }
   ]
 
 }
