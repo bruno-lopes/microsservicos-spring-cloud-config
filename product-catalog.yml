@@ -1,0 +1,20 @@
+{
+  "label": null,
+  "name": "product-catalog",
+  "profiles": [
+    "default"
+  ],
+  "propertySources": [
+    "name": "https://github.com/bruno-lopes/microsservicos-spring-cloud-config/product-catalog.yml",
+    "source": {
+      "eureka.client.fetchRegistry": false,
+      "eureka.client.registerWithEureka": true,
+      "eureka.client.server.wait-time-in-ms-when-sync-empty": 3000,
+      "eureka.client.service.defaultZone": "http://${eureka.instance.hostname}:${eureka.instance.port}/eureka",
+      "eureka.instance.hostname": "localhost",
+      "eureka.instance.port": "5000",
+      "server.port": 8082
+    }
+  ]
+
+}
